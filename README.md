@@ -3,25 +3,26 @@ Docker PHP-5.6
 
 Image contains:
 
-* ubuntu 14.04
+* ubuntu 16.04
 * nginx (latest)
 * php 5.6
 * php-fpm
+* pear
 
 php modules installed:
 
+* interbase
+* mysql
 * pgsql
 * mongo
-* interbase
+* redis
 * curl
-* apcu
-* cgi
+* json
+* mbstring
+* gd
+* xml
+* zip
 * igbinary
-* yaml
-* Twig and CTwig
-
-php binary extensions were built using 
-[this instructions](http://blog.remibergsma.com/2012/04/05/howto-create-php5-pecl-debian-packages/)
 
 Usage
 -----
