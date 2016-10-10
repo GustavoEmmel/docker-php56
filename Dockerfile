@@ -38,7 +38,7 @@ RUN apt-get update &&\
 
     rm -R /docker
 
-VOLUME ["/var/www/html/", "/var/lib/php5/sessions"]
+VOLUME ["/var/www/html/", "/var/lib/php/sessions"]
 
 EXPOSE 80
 
